@@ -23,7 +23,7 @@ public class TestaContas {
 		
 		AtualizadorDeContas adc = new AtualizadorDeContas(0.1);
 		
-		for (int i = 0; i <= banco.pegaTotalDeContas(); i++ ){
+		for (int i = 0; i < banco.pegaTotalDeContas(); i++ ){
 			adc.roda(banco.getContas()[i]);
 		}
 		

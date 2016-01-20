@@ -9,9 +9,6 @@ public class Banco {
 	
 	public Banco() {
 		this.contas = new Conta[10];
-		for (int i = 0; i < contas.length; i++){
-			this.contas[i] = new Conta();
-		}
 	}
 
 
@@ -24,7 +21,7 @@ public class Banco {
 	}
 	
 	public int pegaTotalDeContas(){
-		return qtd-1;
+		return qtd;
 	}
 
 
